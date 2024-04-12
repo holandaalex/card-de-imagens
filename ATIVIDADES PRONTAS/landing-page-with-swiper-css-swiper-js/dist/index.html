@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+<head>
+  <!-- Define a codificação de caracteres para este documento como UTF-8, que suporta a maioria dos caracteres e símbolos usados em muitas línguas do mundo. -->
+  <meta charset="UTF-8">
+  
+  <!-- Título da página que aparecerá na aba do navegador. -->
+  <title>Alex - Landing Page #html #css #js</title>
+  
+  <!-- Link para a folha de estilos do Swiper, uma biblioteca popular para criar carrosséis deslizantes. -->
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css'>
+  <!-- Link para a folha de estilos personalizada da página. -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<main>
+  <!-- Primeira seção principal que descreve a finalidade da página: explorar animais aquáticos. -->
+  <div>
+    <span>discover</span>
+    <h1>Animais Aquaticos</h1>
+    <hr>
+    <p>A beleza e o mistério estão escondidos no fundo do mar. Explore com nosso aplicativo para saber sobre Animais Aquáticos.</p>
+    <a href="#">download app</a>
+  </div>
+  
+  <!-- Seção do Swiper, um carrossel deslizante que apresenta informações sobre diferentes animais aquáticos. -->
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <!-- Cada .swiper-slide contém informações sobre um animal específico, incluindo um título, descrição e um link para explorar mais. -->
+      <div class="swiper-slide swiper-slide--one">
+        <div>
+          <h2>Medusa</h2>
+          <!-- Descrição da medusa e um link para a Wikipedia. -->
+          <a href="https://pt.wikipedia.org/wiki/Medusozoa" target="_blank">explore</a>
+        </div>
+      </div>
+      <!-- Mais slides seguindo o mesmo padrão para outros animais aquáticos: Cavalo Marinho, Polvo, Tubarão, Golfinho. -->
+    </div>
+    <!-- Paginação do Swiper. Permite ao usuário navegar entre os slides. -->
+    <div class="swiper-pagination"></div>
+  </div>
+  
+  <!-- Imagens de fundo para embelezar a página. -->
+  <img src="https://cdn.pixabay.com/photo/2021/11/04/19/39/jellyfish-6769173_960_720.png" alt="" class="bg">
+  <img src="https://cdn.pixabay.com/photo/2012/04/13/13/57/scallop-32506_960_720.png" alt="" class="bg2">
+</main>
+
+<!-- Scripts para ativar e configurar o funcionamento do Swiper. -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js'></script>
+<script src="./script.js"></script>
+
+</body>
+</html>
+
+<!-- Alexsander Barreto - https://alexholanda.com.br -->
+
+
+<!-- 
+  Este documento HTML descreve uma landing page focada em "Animais Aquáticos", usando uma combinação de
+  HTML, CSS e JavaScript, destacando-se pelo uso da biblioteca Swiper para criar um carrossel interativo.
+  Cada slide do carrossel oferece informações sobre um animal aquático específico, com um link para uma
+  fonte externa para mais informações. Além disso, a página é embelezada com imagens de fundo relacionadas
+  ao tema marinho.
+ -->
